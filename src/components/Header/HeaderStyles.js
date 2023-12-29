@@ -49,10 +49,10 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: "#000000";
   transition: 0.4s ease;
   &:hover {
-    color: #fff;
+    color: #228B22;
     opacity: 1;
     cursor: pointer;
   }
@@ -112,11 +112,11 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
-color: white;
+color: black;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: #212d45;
+    background-color: #F0F8FF;
     transform: scale(1.2);
     cursor: pointer;
     
